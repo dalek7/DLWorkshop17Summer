@@ -1,6 +1,6 @@
-# Python ¼³Ä¡ (Windows)
-* ¼³Ä¡°¡ ¾ÈµÇ¾î ÀÖÀ¸¸é ´ÙÀ½ ÆÄÀÏÀ» ´Ù¿î·Îµå.
-* TensorFlow only supports version 3.5.x of Python on Windows. 
+# Python ì„¤ì¹˜ (Windows)
+* ì„¤ì¹˜ê°€ ì•ˆë˜ì–´ ìˆìœ¼ë©´ ë‹¤ìŒ íŒŒì¼ì„ ë‹¤ìš´ë¡œë“œ.
+* TensorFlow only supports version 3.5.x of Python on Windows.
 
 ```
 https://www.python.org/ftp/python/3.5.2/python-3.5.2-amd64.exe
@@ -25,13 +25,13 @@ python -m pip install --upgrade pip
 pip install tensorflow
 ```
 
-GPU°¡ ™J¾÷µÇ¾î ÀÖ´Ù¸é (cuda µî)
+GPUê°€ Â™Jì—…ë˜ì–´ ìˆë‹¤ë©´ (cuda ë“±)
 ```
 pip install tensorflow-gpu
 ```
 
-# pycharm ¼³Ä¡
-* ¼³Ä¡°¡ ¾ÈµÇ¾î ÀÖÀ¸¸é ´ÙÀ½ ÆÄÀÏÀ» ´Ù¿î·Îµå.
+# pycharm ì„¤ì¹˜
+* ì„¤ì¹˜ê°€ ì•ˆë˜ì–´ ìˆìœ¼ë©´ ë‹¤ìŒ íŒŒì¼ì„ ë‹¤ìš´ë¡œë“œ.
 ```
 https://download.jetbrains.com/python/pycharm-community-2017.1.4.exe
 ```
