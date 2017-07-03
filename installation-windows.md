@@ -8,7 +8,7 @@ https://www.python.org/ftp/python/3.5.2/python-3.5.2-amd64.exe
 
 # PIP upgrade
 ```
-python -m pip install --upgrade pip
+> python -m pip install --upgrade pip
 ```
 
 
@@ -22,12 +22,12 @@ python -m pip install --upgrade pip
 
 # tensorflow
 ```
-pip install tensorflow
+> pip install tensorflow
 ```
 
-GPU가 J업되어 있다면 (cuda 등)
+GPU가 setup되어 있다면 (cuda 등)
 ```
-pip install tensorflow-gpu
+> pip install tensorflow-gpu
 ```
 
 # pycharm 설치
