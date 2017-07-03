@@ -9,3 +9,4 @@
 4. 이미지 Classification 이해 및 Tensorflow를 이용한 구현 (7/13/2017 목)
    (MNIST Dataset)
 ```
+<img src="https://raw.githubusercontent.com/dalek7/DLWorkshop17Summer/master/logo-hallym.png" width="150">
