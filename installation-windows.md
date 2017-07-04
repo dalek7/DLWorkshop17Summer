@@ -16,7 +16,7 @@ https://www.python.org/ftp/python/3.5.2/python-3.5.2-amd64.exe
 ```
 > pip install virtualenv
 > virtualenv tensorflow
-> tensorflow\Script\activate
+> tensorflow\Scripts\activate
 ```
 
 
