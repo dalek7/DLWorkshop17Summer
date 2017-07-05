@@ -6,19 +6,20 @@ tf.set_random_seed(777)  # for reproducibility
 #A = tf.placeholder(tf.float32, [2, 2])
 #b = tf.placeholder(tf.float32, [2, 1])
 
-# 연립방정식 풀기
+# 중학생 연립방정식 풀기
 
 A = [[1.0, 2.0],
      [1.0, -3.0]]
 
+b = [[6.0],
+     [1.0]];
+
+# 정답. 이게 나와야함
 sol = [[4.0],
      [1.0]]
 
 bb = tf.matmul(A, sol)
 print bb
-
-b = [[6.0],
-     [1.0]];
 
 
 x = tf.Variable(tf.random_normal([2, 1]), name='weight1')

@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d90d3aa7-9ebc-4115-b1b1-889dd1c97154" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/DLWS.iml" afterPath="$PROJECT_DIR$/.idea/DLWS.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/01-2-equation.py" afterPath="$PROJECT_DIR$/01-2-equation.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -71,14 +69,48 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="01-2-equation.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="01-2-equation.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/01-2-equation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="364">
+              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding>
                 <element signature="e#23#46#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="01-3-simplenetwork.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/01-3-simplenetwork.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="00-5-relutest.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/00-5-relutest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="61" lean-forward="false" selection-start-line="13" selection-start-column="61" selection-end-line="13" selection-end-column="61" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="01-1-linear-regression-placeholder.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/01-1-linear-regression-placeholder.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="904">
+              <caret line="70" column="54" lean-forward="true" selection-start-line="70" selection-start-column="54" selection-end-line="70" selection-end-column="54" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -101,6 +133,8 @@
         <option value="$PROJECT_DIR$/01-1-linear_regression.py" />
         <option value="$PROJECT_DIR$/01-1-linear_regression-optional.py" />
         <option value="$PROJECT_DIR$/01-2-equation.py" />
+        <option value="$PROJECT_DIR$/01-3-simplenetwork.py" />
+        <option value="$PROJECT_DIR$/00-5-relutest.py" />
       </list>
     </option>
   </component>
@@ -162,58 +196,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.01-2-equation">
-    <configuration default="false" name="00-3-basic_operations" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DLWS" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00-3-basic_operations.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="00-1-basic_operations" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DLWS" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00-1-basic_operations.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="01-1-linear_regression" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DLWS" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/01-1-linear_regression.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.00-5-relutest">
     <configuration default="false" name="01-1-linear_regression-optional" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -244,6 +227,57 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="DLWS" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/01-2-equation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="01-1-linear-regression-placeholder" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DLWS" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/01-1-linear-regression-placeholder.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="01-3-simplenetwork" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DLWS" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/01-3-simplenetwork.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="00-5-relutest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DLWS" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00-5-relutest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -383,19 +417,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.00-3-basic_operations" />
-      <item index="1" class="java.lang.String" itemvalue="Python.00-1-basic_operations" />
-      <item index="2" class="java.lang.String" itemvalue="Python.01-1-linear_regression" />
-      <item index="3" class="java.lang.String" itemvalue="Python.01-1-linear_regression-optional" />
-      <item index="4" class="java.lang.String" itemvalue="Python.01-2-equation" />
+      <item index="0" class="java.lang.String" itemvalue="Python.01-1-linear_regression-optional" />
+      <item index="1" class="java.lang.String" itemvalue="Python.01-2-equation" />
+      <item index="2" class="java.lang.String" itemvalue="Python.01-1-linear-regression-placeholder" />
+      <item index="3" class="java.lang.String" itemvalue="Python.01-3-simplenetwork" />
+      <item index="4" class="java.lang.String" itemvalue="Python.00-5-relutest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.01-2-equation" />
-        <item index="1" class="java.lang.String" itemvalue="Python.01-1-linear_regression-optional" />
-        <item index="2" class="java.lang.String" itemvalue="Python.01-1-linear_regression" />
-        <item index="3" class="java.lang.String" itemvalue="Python.00-3-basic_operations" />
-        <item index="4" class="java.lang.String" itemvalue="Python.00-1-basic_operations" />
+        <item index="0" class="java.lang.String" itemvalue="Python.00-5-relutest" />
+        <item index="1" class="java.lang.String" itemvalue="Python.01-3-simplenetwork" />
+        <item index="2" class="java.lang.String" itemvalue="Python.01-1-linear-regression-placeholder" />
+        <item index="3" class="java.lang.String" itemvalue="Python.01-2-equation" />
+        <item index="4" class="java.lang.String" itemvalue="Python.01-1-linear_regression-optional" />
       </list>
     </recent_temporary>
   </component>
@@ -512,12 +546,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/01-1-linear-regression-placeholder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="904">
+          <caret line="70" column="54" lean-forward="true" selection-start-line="70" selection-start-column="54" selection-end-line="70" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/01-2-equation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="364">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding>
             <element signature="e#23#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-3-simplenetwork.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00-5-relutest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="61" lean-forward="false" selection-start-line="13" selection-start-column="61" selection-end-line="13" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>
