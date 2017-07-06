@@ -6,6 +6,10 @@ __pycache__/
 # Mac
 .DS_Store
 
+# ETC
+.idea/
+
+
 # C extensions
 *.so
 
