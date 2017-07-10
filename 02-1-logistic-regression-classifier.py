@@ -67,10 +67,7 @@ with tf.Session() as sess:
         v1 = sess.run(hypothesis, feed_dict={X: [x_data[i]]})
         v2 = round(v1)
 
-
-
         print x_data[i], "--->",  v1, "-->", v2;
-        #print(sess.run(hypothesis, feed_dict={X: [[1, 2]]}))
         #print(sess.run(hypothesis, feed_dict={X: [[1, 2]]}))
 
     x_data2 = np.array(x_data)
@@ -86,6 +83,5 @@ with tf.Session() as sess:
             plt.plot(x1[i], x2[i], "bo")
         else:
             plt.plot(x1[i], x2[i], "r^")
-
 
     plt.show()

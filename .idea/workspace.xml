@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d90d3aa7-9ebc-4115-b1b1-889dd1c97154" name="Default" comment="" />
+    <list default="true" id="d90d3aa7-9ebc-4115-b1b1-889dd1c97154" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/02-1-logistic-regression-classifier.py" afterPath="$PROJECT_DIR$/02-1-logistic-regression-classifier.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,21 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="02-1-logistic-regression-classifier.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="02-1-logistic-regression-classifier.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/02-1-logistic-regression-classifier.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="88" column="0" lean-forward="true" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="02-2-logistic-regression.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/02-2-logistic-regression.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+            <state relative-caret-position="210">
+              <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -712,18 +704,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02-1-logistic-regression-classifier.py">
+    <entry file="file://$PROJECT_DIR$/02-2-logistic-regression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="88" column="0" lean-forward="true" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+        <state relative-caret-position="675">
+          <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02-2-logistic-regression.py">
+    <entry file="file://$PROJECT_DIR$/02-1-logistic-regression-classifier.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        <state relative-caret-position="210">
+          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
           <folding />
         </state>
       </provider>
