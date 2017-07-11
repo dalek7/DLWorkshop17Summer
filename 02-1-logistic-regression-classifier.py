@@ -65,7 +65,7 @@ with tf.Session() as sess:
 
     for i in range(len(x_data)):
         v1 = sess.run(hypothesis, feed_dict={X: [x_data[i]]})
-        v2 = round(v1)
+        v2 = np.round(v1)
 
         print x_data[i], "--->",  v1, "-->", v2;
         #print(sess.run(hypothesis, feed_dict={X: [[1, 2]]}))
@@ -73,7 +73,7 @@ with tf.Session() as sess:
     x_data2 = np.array(x_data)
     x1 = x_data2[:, 0]
     x2 = x_data2[:, 1]
-    print len(x1);
+    print(len(x1))
     print ('x1=', x1)
     print ('x2=', x2)
 
