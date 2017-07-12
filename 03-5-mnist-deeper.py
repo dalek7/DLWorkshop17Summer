@@ -13,7 +13,7 @@ mnist = input_data.read_data_sets("./tmp/MNIST_data/", one_hot=True) #for window
 
 # parameters
 learning_rate = 0.001
-training_epochs = 15
+training_epochs = 100
 batch_size = 100
 
 # input place holders
@@ -25,11 +25,11 @@ W1 = tf.Variable(tf.random_normal([784, 256]))
 b1 = tf.Variable(tf.random_normal([256]))
 L1 = tf.nn.relu(tf.matmul(X, W1) + b1)
 
-W2 = tf.Variable(tf.random_normal([256, 256]))
-b2 = tf.Variable(tf.random_normal([256]))
+W2 = tf.Variable(tf.random_normal([256, 128]))
+b2 = tf.Variable(tf.random_normal([128]))
 L2 = tf.nn.relu(tf.matmul(L1, W2) + b2)
 
-W3 = tf.Variable(tf.random_normal([256, 10]))
+W3 = tf.Variable(tf.random_normal([128, 10]))
 b3 = tf.Variable(tf.random_normal([10]))
 hypothesis = tf.matmul(L2, W3) + b3
 
@@ -68,12 +68,21 @@ r = random.randint(0, mnist.test.num_examples - 1)
 print("Random pick : ", r)
 print(" (Label) = ", mnist.test.labels[r:r + 1])
 
-print("Label: ", sess.run(tf.argmax(mnist.test.labels[r:r + 1], 1)))
-print("Prediction: ", sess.run(
-    tf.argmax(hypothesis, 1), feed_dict={X: mnist.test.images[r:r + 1]}))
+label_ans_human = sess.run(tf.argmax(mnist.test.labels[r:r + 1], 1))
+print("Label: ", label_ans_human)
+
+label_pred = sess.run(tf.argmax(hypothesis, 1), feed_dict={X: mnist.test.images[r:r + 1]})
+print("Prediction: ", label_pred)
 
 plt.imshow(mnist.test.images[r:r + 1].
            reshape(28, 28), cmap='Greys', interpolation='nearest')
+
+label_ans   = mnist.test.labels[r:r + 1]
+label_ans1 = label_ans.astype(int)
+str1 = " ".join(str(x) for x in label_ans1)
+ttl = '#%d      [%s] %d ==? %d' % (r, str1, label_ans_human, label_pred)
+plt.title(ttl, fontsize=15)
+
 plt.show()
 
 '''

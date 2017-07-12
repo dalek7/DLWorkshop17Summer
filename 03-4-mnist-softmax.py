@@ -10,8 +10,11 @@ import matplotlib.pyplot as plt
 tf.set_random_seed(777)  # reproducibility
 
 mnist = input_data.read_data_sets("./tmp/MNIST_data/", one_hot=True) #for windows users
+print ('mnist.train.num_examples = ', mnist.train.num_examples)
 # Check out https://www.tensorflow.org/get_started/mnist/beginners for
 # more information about the mnist dataset
+
+
 
 # parameters
 learning_rate = 0.001
@@ -33,14 +36,20 @@ cost = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(
     logits=hypothesis, labels=Y))
 optimizer = tf.train.AdamOptimizer(learning_rate=learning_rate).minimize(cost)
 
+
 # initialize
 sess = tf.Session()
 sess.run(tf.global_variables_initializer())
 
+print('argmax test')
+print (sess.run(tf.argmax([[0.1, 0.3, 0.5, 0.2]], 0))) # [0 0 0 0]
+print (sess.run(tf.argmax([[0.1, 0.3, 0.5, 0.2]], 1))) # [2]
+
+total_batch = int(mnist.train.num_examples / batch_size)
+
 # train my model
 for epoch in range(training_epochs):
     avg_cost = 0
-    total_batch = int(mnist.train.num_examples / batch_size)
 
     for i in range(total_batch):
         batch_xs, batch_ys = mnist.train.next_batch(batch_size)
@@ -57,8 +66,6 @@ correct_prediction = tf.equal(tf.argmax(hypothesis, 1), tf.argmax(Y, 1))
 accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
 print('Accuracy:', sess.run(accuracy, feed_dict={
       X: mnist.test.images, Y: mnist.test.labels}))
-
-
 
 # Get one and predict
 r = random.randint(0, mnist.test.num_examples - 1)
